@@ -2,7 +2,7 @@
 <a href="https://www.kaggle.com/datasets/puneet6060/intel-image-classification">Dataset</a>
 
 <h2>Model name: vit_tiny_patch16_224</h2>
-
+category_list = {"mountain":0,"street":1,"buildings":2,"sea":3,"forest":4,"glacier":5} <br/>
 TRAIN LOSS : 0.00484765412424284 <br/>
 TRAIN PREC : [0.99799679 0.9978903  0.99907961 0.99955733 1.         0.99790882] <br/>
 RECALL : [0.99759712 0.99915505 0.99770221 0.99955733 0.99955674 0.99874424] <br/>

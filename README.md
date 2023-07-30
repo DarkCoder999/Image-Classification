@@ -1,7 +1,21 @@
-<h2>Developed a Transformer-based model using ViT that can accurately classify natural scene images into one of the six predefined categories: buildings, forest, glacier, mountain, sea, and street</h2>
+<h3>Developed a Transformer-based model using ViT that can accurately classify natural scene images into one of the six predefined categories: buildings, forest, glacier, mountain, sea, and street</h3>
 <a href="https://www.kaggle.com/datasets/puneet6060/intel-image-classification">Dataset</a>
 
-<h1>Model name: vit_tiny_patch16_224</h1>
+<h2>Model name: vit_tiny_patch16_224</h2>
+
+TRAIN LOSS : 0.00484765412424284 
+TRAIN PREC : [0.99799679 0.9978903  0.99907961 0.99955733 1.         0.99790882] 
+RECALL : [0.99759712 0.99915505 0.99770221 0.99955733 0.99955674 0.99874424] 
+F1 : [0.99779692 0.99852227 0.99839043 0.99955733 0.99977832 0.99832636] 
+ACC : 99.87098623853211
+
+VALIDATION LOSS : 0.3094542117396486 
+VALIDATION PREC : [0.93333333 0.92307692 0.875      1.         1.         0.88235294] 
+RECALL : [0.93333333 0.8        0.93333333 0.93333333 1.         1.        ] 
+F1 : [0.93333333 0.85714286 0.90322581 0.96551724 1.         0.9375    ]  
+ACC : 92.5 
+
+TEST ACC : 93.67
 
 ![image](https://github.com/DarkCoder999/Image-Classification-using-Vit/assets/98643503/02751061-49d2-4561-aafd-be31ceee79b3)
 ![image](https://github.com/DarkCoder999/Image-Classification-using-Vit/assets/98643503/18d7c18a-547b-49a5-8220-c33de425c48f)
